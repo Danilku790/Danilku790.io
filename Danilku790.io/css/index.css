@@ -1,0 +1,290 @@
+/*=========================//
+	Разработчик Смагин Константин - vk.com/tg_bu77h34d
+	Группа разработчика - vk.com/westerndev
+	Дизайнер Никита Бундаев - vk.com/nik_richo
+	Группа дизайнера - vk.com/planetdesigner
+	Для Ubuntu RP
+//*=========================*/
+
+@font-face { /* Шрифт Ubuntu */
+	font-family: ubuntu;
+	src: url(../fonts/ubuntu.ttf);
+}
+
+body {
+	margin: 0 0 0 0;
+}
+
+header {
+	background: url("../images/BG.png") no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 750px;
+}
+
+section {
+	width: 100%;
+	height: 900px;
+}
+
+a { /* Стиль всех links */
+	text-decoration: none;
+	color: white;
+	font-family: ubuntu;
+	font-size: 15px;
+}
+
+#HeadTitle { /* Стиль картинки-заголовка в шапке */
+	position: relative;
+	width: 300px;
+	height: 150px;
+    right: 10px;
+	top: 170px;
+}
+
+#HeadP { /* Стиль текста под заголовком в шапке */
+	font-family: ubuntu;
+	font-size: 20px;
+	color: white;
+	margin-top: 180px;
+}
+
+.container { /* Контейнер сайта */
+	position: relative;
+	margin: 0 auto; 
+	width: 60%;
+	height: 100%;
+}
+
+.BtnMenu {
+	float: left;
+	margin-left: -50px;
+}
+
+.BtnMenuUL {
+	float: left;
+}
+
+.BtnMenuUL li {
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+
+.button { /* Стиль всех кнопок */
+	position: relative;
+	border-radius: 25px 25px 25px 25px;
+	width: 130px;
+	height: 40px;
+}
+
+.button span { /* Стиль текста всех кнопок */
+	position: relative;
+	color: white;
+	font-family: ubuntu;
+	font-size: 12px;
+	top: 23%;
+}
+
+#ServerList { /* Стиль кнопки "Cписок серверов" */
+	position: relative;
+	background: #fc6a42;
+	border: 2px solid #fc6a42;
+}
+
+#ServerList span { /* Стиль текста кнопки "Cписок серверов" */
+    left: 15%;
+}
+
+#AboutProject { /* Стиль кнопки "О проекте" */
+	position: relative;
+	border: 2px solid white;
+}
+
+#AboutProject span { /* Стиль текста кнопки "О проекте" */
+	left: 25%;
+}
+
+.WhyUnusual {
+	width: 100%;
+    height: 790px;
+    background: url(../images/icon-bg.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: 24px -25px;
+}
+
+.TitleH2 {
+	font-weight: normal;
+	text-align: center;
+	color: #5b81ec;
+	font-family: ubuntu;
+	text-transform: uppercase;
+	margin-top: 75px;
+}
+
+.WhyUnusualBlock {
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.WhyUnusualSubblock {
+	position: relative;
+	width: 520px;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: 40px;
+    box-shadow: 0 0 5px grey;
+    transition: 0.2s;
+}
+
+.WhyUnusualSubblock img{
+	position: absolute;
+	width: 70px;
+    height: 60px;
+    top: 15%;
+    left: -7%;
+}
+
+.WhyUnusualSubblock p {
+	font-family: ubuntu;
+	font-size: 20px;
+	color: gray;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.Servers {
+	margin-top: -100px;
+	width: 100%;
+	height: 300px;
+	background: url("../images/server-bg.png");
+	background-size: 100% 100%;
+}
+
+.TitleServers {
+	text-align: center;
+	color: white;
+	font-family: ubuntu;
+	text-transform: uppercase;
+    padding-top: 40px;
+}
+
+.ServerInfo {
+	width: 260px;
+    height: 150px;
+}
+
+.HostName {
+	text-align: center;
+	font-weight: normal;
+	font-size: 20px;
+	color: white;
+	font-family: ubuntu;
+	text-transform: uppercase;
+}
+
+.PlayersOnline {
+	text-align: center;
+	font-weight: normal;
+	font-size: 15px;
+	color: white;
+	font-family: ubuntu;
+	text-transform: uppercase;
+}
+
+.OnlineLine {
+	position: relative;
+	width: 220px;
+	height: 7px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 25px 25px 25px 25px;
+	background: white;
+}
+
+.OnlineLine div{
+	position: relative;
+	height: 7px;
+	margin: 0 auto;
+    float: left;
+	border-radius: 25px 25px 25px 25px;
+	background: #fc6a42;
+}
+
+.SrvMenu {
+	margin: 0 auto;
+	width: 600px;
+	float: center;
+}
+
+.SrvMenuUL {
+	margin: 0 auto;
+	margin-left: -50px;
+}
+
+.SrvMenuUL li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.BtnConnect {
+	width: 135px;
+    height: 55px;
+    margin-left: 65px;
+	background: url(../images/connect-button.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.HowStartPlay {
+	width: 100%;
+    height: 450px;
+    background: white;
+}
+
+.HowPlayMenu {
+	margin: 0 auto;
+	margin-top: 80px;
+    width: 750px;
+}
+
+.HowPlayMenuUL {
+	margin: 0 auto;
+    margin-left: -50px;
+    width: 750px;
+}
+
+.HowPlayMenuUL li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+#Play1 {
+	position: relative;
+	width: 200px;
+    height: 230px;
+	background: url(../images/Play1.png);
+	background-size: 100% 100%;
+}
+
+#Play2 {
+	position: relative;
+    width: 200px;
+    height: 230px;
+	background: url(../images/Play2.png);
+	background-size: 100% 100%;
+}
+
+#Play3 {
+    width: 200px;
+    height: 230px;
+	background: url(../images/Play3.png);
+	background-size: 100% 100%;
+}
+
+.LinkBtn {
+	width: 30px;
+	height: 30px;
+	margin-left: 43%;
+    margin-top: 190px;
+    transition: 0.3s;
+}
