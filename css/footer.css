@@ -1,0 +1,141 @@
+/*=========================//
+	Разработчик Смагин Константин - vk.com/tg_bu77h34d
+	Группа разработчика - vk.com/westerndev
+	Дизайнер Никита Бундаев - vk.com/nik_richo
+	Группа дизайнера - vk.com/planetdesigner
+	Для Ubuntu RP
+//*=========================*/
+
+@font-face { /* Шрифт Ubuntu */
+	font-family: ubuntu;
+	src: url(../fonts/ubuntu.ttf);
+}
+
+section {
+	width: 100%;
+	height: 900px;
+}
+
+a { /* Стиль всех links */
+	text-decoration: none;
+	color: white;
+	font-family: ubuntu;
+	font-size: 15px;
+}
+
+footer {
+	width: 100%;
+	height: 250px;
+	background: #353854;
+}
+
+hr {
+	background: green;
+    background-color: #434769;
+    height: 1px;
+    border: 0;
+    margin-top: 40px;
+}
+
+.container { /* Контейнер сайта */
+	position: relative;
+	margin: 0 auto; 
+	width: 60%;
+	height: 100%;
+}
+
+#FooterMenu{ /* Стиль меню */
+	margin: 0 auto;
+    padding-top: 60px;
+    width: 600px;
+}
+
+#FooterMenuUL { /* Стиль меню */
+	margin: 0 auto;
+    width: 600px;
+}
+
+#FooterMenuUL li { /* Стиль меню */
+	display: inline-block;
+	margin-left: 50px;
+}
+
+#FooterMenuUL a {
+	font-size: 13px;
+}
+
+#FooterInfo {
+	position: relative;
+}
+
+#Copyrighted {
+	color: #434769;
+	font-size: 15px;
+	font-family: ubuntu;
+	margin-top: 50px;
+	text-align: left;
+}
+
+#Dev {
+	color: #434769;
+	font-size: 18px;
+	font-family: ubuntu;
+	margin-top: -50px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.DevLinks {
+	float: right;
+	margin-right: 0px;
+}
+
+#DL1:hover #DevLinksBlockPD {
+	opacity: 0;
+	height: 0px;
+}
+
+#DL1:hover #DevLinksBlockPA {
+	opacity: 1;
+	height: 50px;
+}
+
+#DL2:hover #DevLinksBlockWD {
+	opacity: 0;
+	height: 0px;
+}
+
+#DL2:hover #DevLinksBlockWA {
+	opacity: 1;
+	height: 50px;
+}
+
+#DevLinksBlockPD {
+	width: 60px;
+	height: 50px;
+	background: url("../images/PLogoDeactive.png");
+	background-size: 100% 100%;
+}
+
+#DevLinksBlockWD {
+	width: 60px;
+	height: 50px;
+	background: url("../images/WLogoDeactive.png");
+	background-size: 100% 100%;
+}
+
+#DevLinksBlockPA {
+	width: 60px;
+	height: 0px;
+	background: url("../images/PLogoActive.png");
+	background-size: 100% 100%;
+	opacity: 0;
+}
+
+#DevLinksBlockWA {
+	width: 60px;
+	height: 0px;
+	background: url("../images/WLogoActive.png");
+	background-size: 100% 100%;
+	opacity: 0;
+}

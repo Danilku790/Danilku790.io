@@ -1,0 +1,106 @@
+/*=========================//
+	Разработчик Смагин Константин - vk.com/tg_bu77h34d
+	Группа разработчика - vk.com/westerndev
+	Дизайнер Никита Бундаев - vk.com/nik_richo
+	Группа дизайнера - vk.com/planetdesigner
+	Для Ubuntu RP
+//*=========================*/
+
+@font-face { /* Шрифт Ubuntu */
+	font-family: ubuntu;
+	src: url(../fonts/ubuntu.ttf);
+}
+
+section {
+	width: 100%;
+	height: 900px;
+}
+
+a { /* Стиль всех links */
+	text-decoration: none;
+	color: white;
+	font-family: ubuntu;
+	font-size: 15px;
+}
+
+.container { /* Контейнер сайта */
+	position: relative;
+	margin: 0 auto; 
+	width: 60%;
+	height: 100%;
+}
+
+.Social {
+	width: 100%;
+    height: 500px;
+    background: url(../images/bg2.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+}
+
+.BtnYT_VK {
+	float: right;
+	width: 620px;
+    margin-top: 230px;
+}
+
+.BtnYT_VK li {
+	display: inline-block;
+}
+
+#VK {
+	width: 280px;
+	height: 110px;
+	background: url("../images/socbg1.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+#VK a div{
+	position: relative;
+	width: 120px;
+	height: 120px;
+	border-radius: 100px 100px 100px 100px;
+	background: url("../images/vk.png") no-repeat;
+	background-color: white;
+    background-size: 70% 67%;
+    background-position: 45% 45%;
+    margin: 0 auto;
+    top: -5px;
+	box-shadow: 0 0 30px grey;
+	transition: 0.3s;
+}
+
+#VK a:hover div{
+	width: 140px;
+	height: 140px;
+	top: -15px;
+}
+
+#YT {
+	width: 280px;
+	height: 110px;
+	background: url("../images/socbg2.png") no-repeat;
+	background-size: 100% 100%;
+	margin-left: 40px;
+}
+
+#YT a div{
+	position: relative;
+	width: 120px;
+	height: 120px;
+	border-radius: 100px 100px 100px 100px;
+	background: url("../images/yt.png") no-repeat;
+	background-color: white;
+    background-size: 70% 70%;
+    background-position: 45% 45%;
+    margin: 0 auto;
+    top: -5px;
+    box-shadow: 0 0 30px grey;
+    transition: 0.3s;
+}
+
+#YT a:hover div{
+	width: 140px;
+	height: 140px;
+	top: -15px;
+}
